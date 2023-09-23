@@ -1,24 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-// import SideBar from "../components/Sidebar";
-// import RightBar from "../components/RightBar";
+import SideBar from "../components/Sidebar";
+import RightBar from "../components/RightBar";
 import Container from "../components/Container";
 ---
 
 <Layout title="Welcome to Astro.">
-  <!-- <SideBar />
-  <RightBar /> -->
+<div class="flex justify-between">
+  <SideBar />
   <Container />
-</Layout>
+  <RightBar /> 
+</div>
 
-<style>
-  html {
-    color: white;
-  }
-  * {
-    @apply appearance-none outline-none;
-  }
-  *:focus {
-    @apply appearance-none outline-none;
-  }
-</style>
+</Layout>
