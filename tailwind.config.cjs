@@ -13,11 +13,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#1DB954',
         text: '#FFFFFF',
         'text-secondary': '#BDFFFF',
         'deep-dark': '#121212',
         dark: '#212121',
+      },
+      backdropBlur: {
+        dark: "",
+        light: ""
       },
       container: {
         screens: {

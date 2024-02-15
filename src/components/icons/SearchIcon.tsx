@@ -1,24 +1,12 @@
-export const SearchIcon = () => (
-  <svg
-    width="21"
-    height="20"
-    viewBox="0 0 21 20"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M10.0081 17.5C14.3804 17.5 17.9248 13.9556 17.9248 9.58332C17.9248 5.21107 14.3804 1.66666 10.0081 1.66666C5.63587 1.66666 2.09146 5.21107 2.09146 9.58332C2.09146 13.9556 5.63587 17.5 10.0081 17.5Z"
-      stroke="white"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M18.7581 18.3333L17.0915 16.6667"
-      stroke="white"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-  </svg>
-)
+export const SearchIcon = (props: preact.JSX.HTMLAttributes<SVGSVGElement>) => {
+    return (<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 25 24"
+        {...props}
+    >
+        <path
+            d="M10.247 19.669a9.63 9.63 0 005.32-1.601l5.394 5.406c.357.345.813.517 1.305.517 1.022 0 1.773-.8 1.773-1.81 0-.468-.16-.924-.504-1.268l-5.357-5.382a9.611 9.611 0 001.76-5.554c0-5.332-4.358-9.69-9.69-9.69-5.32 0-9.692 4.358-9.692 9.69 0 5.333 4.36 9.692 9.691 9.692zm0-2.586c-3.903 0-7.105-3.202-7.105-7.106 0-3.903 3.202-7.105 7.105-7.105 3.904 0 7.106 3.202 7.106 7.105 0 3.904-3.202 7.106-7.106 7.106z"
+        ></path>
+    </svg>
+    );
+}

@@ -1,15 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SideBar from "../components/Sidebar";
-import RightBar from "../components/RightBar";
-import Container from "../components/Container";
+import SidePill from "../components/sidePill/SidePill";
+import "../styles/base.css"
 ---
 
-<Layout title="Welcome to Astro.">
-<div class="flex justify-between">
-  <SideBar />
-  <Container />
-  <RightBar /> 
+<Layout title="Pie Tunes">
+<div class="flex justify-between bg-[url('/src/components/assets/background.png')] ">
+  <SidePill />
+
 </div>
 
 </Layout>
